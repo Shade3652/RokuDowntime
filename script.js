@@ -1,4 +1,4 @@
-let input = console.prompt("Enter Your Pin.")
+let input = prompt("Enter Your Pin.")
 
 fetch('data.json')
   .then(response => response.json())
